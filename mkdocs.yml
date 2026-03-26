@@ -1,10 +1,17 @@
-site_name: "Docs del alumno"
+site_name: "Chatbot con IA — Documentación"
 theme:
   name: material
+  language: es
+  palette:
+    primary: indigo
+    accent: blue
 
 nav:
   - Inicio: index.md
   - Guía:
       - Quickstart: guia/quickstart.md
+      - Instalación: guia/instalacion.md
+      - Uso: guia/uso.md
   - Referencia:
       - Comandos: referencia/comandos.md
+      - FAQ: referencia/faq.md

@@ -1,17 +1,77 @@
-# Welcome to MkDocs
+# 🤖 ChatBot con Inteligencia Artificial
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+> **Documentación técnica completa** para el diseño, implementación y despliegue de un chatbot potenciado por IA generativa.
 
-## Commands
+---
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## ¿Qué es este proyecto?
 
-## Project layout
+Este proyecto documenta la creación de un **chatbot conversacional** basado en inteligencia artificial, capaz de responder preguntas, dar soporte a usuarios y mantener conversaciones contextuales en lenguaje natural.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+El sistema se apoya en tres pilares:
+
+- **API de IA** (OpenAI GPT) como motor de generación de respuestas
+- **Backend en Node.js** como servidor intermediario y gestor de sesiones
+- **Frontend web** como interfaz de usuario sencilla y accesible
+
+---
+
+## Vista rápida del sistema
+
+```
+Usuario  ──►  Frontend (HTML/JS)
+                    │
+                    ▼
+             Backend (Node.js)
+                    │
+                    ▼
+             API de OpenAI  ──►  Respuesta GPT
+                    │
+                    ▼
+             Frontend  ──►  Usuario
+```
+
+---
+
+## Navegación del sitio
+
+| Sección | Descripción | Enlace |
+|---|---|---|
+| 🚀 Quickstart | Arranca el chatbot en minutos | [Ir a Quickstart](guia/quickstart.md) |
+| 🔧 Instalación | Guía detallada de instalación | [Ir a Instalación](guia/instalacion.md) |
+| 📖 Uso | Cómo usar y personalizar el chatbot | [Ir a Uso](guia/uso.md) |
+| 💻 Comandos | Referencia de comandos y scripts | [Ir a Comandos](referencia/comandos.md) |
+| ❓ FAQ | Preguntas frecuentes | [Ir a FAQ](referencia/faq.md) |
+
+---
+
+## Requisitos mínimos
+
+- Node.js v18 o superior
+- Clave de API de [OpenAI](https://platform.openai.com/)
+- Navegador web moderno (Chrome, Firefox, Edge)
+- Conexión a internet
+
+---
+
+## Estado del proyecto
+
+| Componente | Estado |
+|---|---|
+| Backend Node.js | ✅ Estable |
+| Integración OpenAI | ✅ Estable |
+| Frontend web | ✅ Estable |
+| Soporte multi-idioma | 🚧 En desarrollo |
+| Historial persistente | 🔜 Planificado |
+
+---
+
+## Recursos externos
+
+- [Documentación oficial de OpenAI](https://platform.openai.com/docs)
+- [Node.js — sitio oficial](https://nodejs.org/)
+- [Express.js — framework web](https://expressjs.com/)
+
+---
+
+> 💡 **Tip:** Si es tu primera vez, empieza por la [guía de Quickstart](guia/quickstart.md).
