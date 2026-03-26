@@ -15,3 +15,9 @@ nav:
   - Referencia:
       - Comandos: referencia/comandos.md
       - FAQ: referencia/faq.md
+  - Extra:
+      - Casos de uso reales: extra/casos-de-uso.md
+      - Comparativa de modelos: extra/comparativa-modelos.md
+      - Glosario: extra/glosario.md
+  - Seguridad: seguridad.md
+  - Conclusiones: conclusiones.md

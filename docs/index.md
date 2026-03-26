@@ -66,6 +66,30 @@ Usuario  ──►  Frontend (HTML/JS)
 
 ---
 
+## ¿Para quién es este proyecto?
+
+<details>
+<summary>👥 Ver perfiles de usuario recomendados</summary>
+
+Este chatbot está pensado para distintos perfiles, cada uno con un caso de uso diferente:
+
+| Perfil | Caso de uso principal | Nivel técnico |
+|---|---|---|
+| Desarrollador web | Integrar el chatbot en una app existente | Medio-alto |
+| Emprendedor / startup | Soporte automatizado para clientes | Bajo-medio |
+| Estudiante de DAW/DAM | Proyecto final de ciclo | Medio |
+| Administrador de sistemas | Automatizar consultas internas | Medio |
+
+Si eres **estudiante**, empieza por el [Quickstart](guia/quickstart.md) y la [guía de instalación](guia/instalacion.md).
+
+Si eres **desarrollador** buscando integrar el chatbot en un producto, consulta los [casos de uso reales](extra/casos-de-uso.md) y la [comparativa de modelos](extra/comparativa-modelos.md).
+
+Si tienes dudas sobre terminología, el [glosario](extra/glosario.md) te será útil.
+
+</details>
+
+---
+
 ## Recursos externos
 
 - [Documentación oficial de OpenAI](https://platform.openai.com/docs)
