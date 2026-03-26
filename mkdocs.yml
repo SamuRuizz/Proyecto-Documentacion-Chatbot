@@ -1,1 +1,10 @@
-site_name: My Docs
+site_name: "Docs del alumno"
+theme:
+  name: material
+
+nav:
+  - Inicio: index.md
+  - Guía:
+      - Quickstart: guia/quickstart.md
+  - Referencia:
+      - Comandos: referencia/comandos.md
