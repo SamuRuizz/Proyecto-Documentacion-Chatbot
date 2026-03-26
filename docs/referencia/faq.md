@@ -160,7 +160,7 @@ Si sigues teniendo problemas tras consultar esta FAQ:
 
 1. Revisa los [errores frecuentes de Quickstart](../guia/quickstart.md#errores-frecuentes)
 2. Revisa los [errores frecuentes de Instalación](../guia/instalacion.md#errores-frecuentes)
-3. Consulta los [logs del servidor](#ver-verificación) con `npm run dev` (muestra más detalles)
+3. Consulta los [logs del servidor](#verificación) con `npm run dev` (muestra más detalles)
 
 ---
 

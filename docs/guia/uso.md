@@ -26,7 +26,7 @@ http://localhost:3000
 
 Verás la interfaz de chat con un campo de texto en la parte inferior.
 
-![Interfaz principal del chatbot](../assets/captura-chat.png)
+![Interfaz principal del chatbot](../assets/captura-chat.svg)
 
 ### 2. Enviar un mensaje
 

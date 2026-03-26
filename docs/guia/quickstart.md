@@ -59,7 +59,7 @@ Una vez arrancado, deberías ver en la terminal:
 
 Y en el navegador, una interfaz de chat como esta:
 
-![Interfaz del chatbot en el navegador](../assets/captura-chat.png)
+![Interfaz del chatbot en el navegador](../assets/captura-chat.svg)
 
 Escribe un mensaje de prueba, por ejemplo `Hola, ¿qué puedes hacer?`, y comprueba que recibes respuesta en menos de 3 segundos.
 
