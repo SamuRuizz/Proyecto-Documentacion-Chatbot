@@ -1,0 +1,60 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg { fill: #f1efe8; }
+      .sidebar { fill: #f8f8f6; }
+      .header { fill: #185FA5; }
+      .bubble-bot { fill: #e6f1fb; }
+      .bubble-user { fill: #185FA5; }
+      .text-bot { fill: #0C447C; font-family: sans-serif; font-size: 12px; }
+      .text-user { fill: #ffffff; font-family: sans-serif; font-size: 12px; }
+      .input-bar { fill: #f1efe8; }
+      .input-box { fill: #ffffff; }
+      .label { fill: #444441; font-family: sans-serif; font-size: 11px; }
+      .dot { fill: #185FA5; }
+    </style>
+  </defs>
+  <rect width="800" height="500" class="bg" rx="12"/>
+  <rect x="0" y="0" width="180" height="500" class="sidebar" rx="12"/>
+  <rect x="0" y="0" width="12" height="500" class="sidebar"/>
+  <text x="24" y="34" fill="#444441" font-family="sans-serif" font-size="13" font-weight="500">🤖 ChatBot IA</text>
+  <rect x="14" y="52" width="152" height="30" fill="#e6f1fb" rx="6"/>
+  <text x="26" y="71" fill="#185FA5" font-family="sans-serif" font-size="12" font-weight="500">💬 Nueva conversación</text>
+  <text x="26" y="108" fill="#888780" font-family="sans-serif" font-size="11">Historial</text>
+  <rect x="14" y="116" width="152" height="28" fill="#f1efe8" rx="6"/>
+  <text x="26" y="134" fill="#888780" font-family="sans-serif" font-size="11">¿Qué es Node.js?</text>
+  <rect x="14" y="150" width="152" height="28" fill="#f1efe8" rx="6"/>
+  <text x="26" y="168" fill="#888780" font-family="sans-serif" font-size="11">Soporte tienda online</text>
+  <text x="26" y="460" fill="#888780" font-family="sans-serif" font-size="11">Modelo: gpt-4o-mini</text>
+  <text x="26" y="478" fill="#888780" font-family="sans-serif" font-size="11">Tokens usados: 1.240</text>
+  <rect x="180" y="0" width="620" height="500" fill="#ffffff"/>
+  <rect x="180" y="0" width="620" height="52" class="header"/>
+  <circle cx="208" cy="26" r="14" fill="#b5d4f4"/>
+  <text x="208" y="31" text-anchor="middle" fill="#0C447C" font-family="sans-serif" font-size="13" font-weight="500">IA</text>
+  <text x="230" y="22" fill="#ffffff" font-family="sans-serif" font-size="15" font-weight="500">Asistente de IA</text>
+  <text x="230" y="38" fill="#b5d4f4" font-family="sans-serif" font-size="11">● En línea</text>
+  <rect x="200" y="72" width="300" height="48" class="bubble-bot" rx="12"/>
+  <text x="216" y="92" class="text-bot">¡Hola! Soy tu asistente con IA.</text>
+  <text x="216" y="110" class="text-bot">¿En qué puedo ayudarte hoy?</text>
+  <text x="216" y="132" class="label">09:42</text>
+  <rect x="420" y="148" width="352" height="34" class="bubble-user" rx="12"/>
+  <text x="436" y="170" class="text-user">¿Qué modelos de IA puedo usar?</text>
+  <text x="760" y="194" text-anchor="end" class="label">09:43</text>
+  <rect x="200" y="204" width="360" height="80" class="bubble-bot" rx="12"/>
+  <text x="216" y="224" class="text-bot">Puedes configurar el modelo en tu</text>
+  <text x="216" y="242" class="text-bot">fichero .env. Las opciones son:</text>
+  <text x="216" y="260" class="text-bot" font-weight="500">· gpt-4o-mini  · gpt-4o  · gpt-3.5-turbo</text>
+  <text x="216" y="296" class="label">09:43</text>
+  <rect x="500" y="308" width="272" height="34" class="bubble-user" rx="12"/>
+  <text x="516" y="330" class="text-user">¿Cuál me recomiendas para pruebas?</text>
+  <text x="760" y="354" text-anchor="end" class="label">09:44</text>
+  <rect x="200" y="362" width="80" height="34" class="bubble-bot" rx="12"/>
+  <circle cx="222" cy="379" r="4" class="dot"/>
+  <circle cx="238" cy="379" r="4" fill="#888780"/>
+  <circle cx="254" cy="379" r="4" fill="#b4b2a9"/>
+  <rect x="180" y="432" width="620" height="68" class="input-bar"/>
+  <rect x="196" y="444" width="540" height="40" class="input-box" rx="8" stroke="#d3d1c7" stroke-width="1"/>
+  <text x="214" y="469" fill="#888780" font-family="sans-serif" font-size="12">Escribe un mensaje...</text>
+  <rect x="748" y="444" width="40" height="40" fill="#185FA5" rx="8"/>
+  <text x="768" y="469" text-anchor="middle" fill="white" font-family="sans-serif" font-size="18">➤</text>
+</svg>
